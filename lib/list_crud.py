@@ -2,29 +2,29 @@ def create_an_empty_list():
     return []
 
 def create_a_list():
-    return ["jack","Sam","Richard","Jen"]
+    return ["one","two","three","four"]
 
-def add_element_to_end_of_list(l, element):
-    l.append(element)
-    return l
+def add_element_to_end_of_list(list, element):
+    list.append(element)
+    return list
 
-def add_element_to_start_of_list(l, element):
-    l.insert(0,element)
-    return l
+def add_element_to_start_of_list(list, element):
+    list.insert(0,element)
+    return list
 
-def remove_element_from_end_of_list(l):
-    l.pop()
-    return l
+def remove_element_from_end_of_list(list):
+    list.pop()
+    return list
 
-def remove_element_from_start_of_list(l):
-    del l[0]
-    return l
+def remove_element_from_start_of_list(list):
+    del list[0]
+    return list
 
-def retrieve_first_element_from_list(l):
-    return l[0]
+def retrieve_first_element_from_list(list):
+    return list[0]
 
-def retrieve_element_from_index(l, index):
-    return l[index]
+def retrieve_element_from_index(list, index):
+    return list[index]
 
-def retrieve_last_element_from_list(l):
-    return l[-1]
+def retrieve_last_element_from_list(list):
+    return list[-1]
